@@ -1,0 +1,27 @@
+
+
+/*tehtävä 1*/
+#demo{
+font-size: 4rem;
+font-family: 'Times New Roman', Times, serif;
+background: linear-gradient(to right white silver);
+border: solid gray 0.2em;
+border-radius: 1em;
+padding: 0.1em 0.3em;
+}
+
+#demotext{
+transform:skewx(20deg);
+display: inline-block;
+}
+
+/*Tehtävä 2*/
+
+.pysty
+{
+width: 0.9em;
+word-break: break-all;
+text-transform: uppercase;   
+text-align: center;
+line-height: 1;
+}
