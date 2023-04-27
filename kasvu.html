@@ -1,8 +1,18 @@
-<!doctype.html>
-<!--kaksoisnapsauta tekstiä, kun testaat. fonttikoon pitöisi kasvaa ja tekstin varjostuksen tulla liukuvasti esiin 10:sekunnissa-->
-<link rel="stylesheet href=kasvu.css>
-<p>class=kasvu ondbclick="this.style.textShadow = '0.1em 0.1em 0.05em #9f9'; this.style.fontsize = '64pt' ">Tarvitsemme kasvua!</p>
-p.kasvu{
-transition-property: font-size, text-shadow;
-Transition-duration:10s;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p class=kasvu ondblclick="this.style.textShadow = '0.1em 0.1em 0.05em #9f9'; this.style.fontSize = '64pt' ">Bruh!</p>
+</body>
+<style>
+    p.kasvu{
+        transition-property: all;
+        transition-duration: 10s;
+    }
+</style>
+</html>
